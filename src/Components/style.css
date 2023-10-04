@@ -1,0 +1,38 @@
+body{
+    background-color: #007FFF;
+}
+
+html{
+    overflow-x: hidden ;
+}
+
+img{
+    height: 200px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.center{
+    justify-content: center;
+}
+
+/* Add this CSS to your existing style.css or create a new CSS file and import it */
+
+/* Custom styles for card layout - three cards per row */
+.row > .col-4 {
+    flex: 0 0 calc(33.3333% - 1rem); /* Three cards per row with spacing */
+    max-width: calc(33.3333% - 1rem);
+    margin-right: 1rem;
+  }
+  
+  /* Pagination styles */
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  /* Update other CSS styles as needed */
+  
